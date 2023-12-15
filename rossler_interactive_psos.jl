@@ -12,7 +12,7 @@ function rosslerrule(u, p, t)
 end
 
 u0 = [0.5, 0.5, 0.5]
-p0 = [0.37, 0.3, 4.9]
+p0 = [0.332, 0.3, 4.9]
 
 rossler = CoupledODEs(rosslerrule, u0, p0)
 
